@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - name: SonarCloud Scan
-      uses: SonarSource/sonarcloud-github-action@v1.5n@v3.4.0
+      uses: SonarSource/sonarcloud-github-action@v1.5
     - uses: actions/checkout@v2
     - name: Set up JDK 15
       uses: actions/setup-java@v1
